@@ -31,7 +31,7 @@ class Character:
             self.traits[category].update(selected_traits)
 
     def format_traits(self, trait_dict):
-        '''Format trait keys, values as strings. (Trait: Description)'''
+        '''Format trait keys, values as human-readable strings.'''
         for trait, description in trait_dict.items():
             x = ('{}: {}'.format(trait, description))
             print(x)
@@ -42,7 +42,7 @@ class Character:
             for k, v in self.traits[x].items():
                 print('+ ' + '**{}**: {}'.format(k, v))
 
-        '''Serialize character sheet output.'''
+        # Serialize character sheet output.
         print('# My Character Sheet')
         print('\n' + '## Name')
         print('\n' + '*' + self.fullname + '*')
