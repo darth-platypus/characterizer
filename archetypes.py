@@ -1,6 +1,6 @@
 '''
-Templates for archetypes. Feel free to create your own! Use the example
-archetype below to help get you started.
+Templates for archetypes. Each template specifies which trait dictionaries to
+pull from and how many traits to pull.
 '''
 
 import traits
@@ -25,7 +25,7 @@ standard = [    # Average Joe/Jane
     ['Health', traits.matrix['Health']['Mental']['Common'], 1]
 ]
 
-antagonist = [    # Average Joe/Jane
+antagonist = [    # An unlikable antagonist.
     ['Physical', traits.matrix['Physical']['Body'], 1],
     ['Personality', traits.matrix['Personality']['Humor']['Offbeat'], 1],
     ['Personality', traits.matrix['Personality']['Flaws']['Common'], 2],
