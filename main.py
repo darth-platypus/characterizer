@@ -1,7 +1,7 @@
 '''
 This is a tool to help fiction writers generate ideas for
 unique characters. The user inputs the first and last name, gender and
-an archetype and a unique character is written to a text file.
+an archetype and a unique character is generated.
 '''
 
 import traits
