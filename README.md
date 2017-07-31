@@ -1,5 +1,5 @@
 # characterizer
-Generate fictional characters with physical traits and personalities randomly selected according to user-specified templates. Exports in raw Markdown format.
+Generate fictional characters with physical traits and personalities randomly selected according to user-specified templates. Exports directly to console in raw Markdown format.
 
 ## Usage
 
