@@ -18,4 +18,4 @@ def characterize(
     my_char.export_markdown()    # Serialize character sheet in Markdown.
 
 
-characterize('Mysterious', 'Stranger', 'Female', archetype=arch.antagonist)
+characterize('Example', 'Character', 'Female', archetype=arch.standard)
