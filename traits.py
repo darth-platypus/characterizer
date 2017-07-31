@@ -1,5 +1,3 @@
-# Reminder: Trim line-length once project is finished.
-
 matrix = {
     "Conflict": {
         "Recent Troubles": {
@@ -15,9 +13,10 @@ matrix = {
             "Recently Paroled": "I've served my time & I'm finally free. Now what?",
         },
         "Education": {
-            "High-school Dropout": "Placeholder.",
-            "High-school Graduate": "Placeholder.",
-            "College Graduate": "Placeholder.",
+            "High-school Graduate": "I graduated high school.",
+            "High-school Dropout": "High school sucked, so I dropped out.",
+            "College Graduate": "I've got a bachelor's degree.",
+            "College Dropout": "I dropped out of college.",
         },
         "Relationships": {
             "Standard": {
@@ -45,7 +44,7 @@ matrix = {
             },
             "Dark": {
                 "Disowned My Child": "I disowned my child.",
-                "Part-time Criminal": "Placeholder.",
+                "Part-time Criminal": "I do whatever I need to do to get by.",
             },
         },
         "Wounds": {
@@ -79,7 +78,7 @@ matrix = {
             "Adult": {   # Potentially offensive senses of humor.
                 "Vulgarian": "My jokes are not kid-friendly, but who the fuck cares?",
                 "Insensitive Clod": "No joke is too racist or sexist for me.",
-                "Harsh": "Placeholder.",
+                # "Harsh": "Placeholder.",
             },
         },
         "Often Described As": {
@@ -89,7 +88,7 @@ matrix = {
             "Loyal": "If we're friends, I've always got your back.",
         },
         "Quirks": {    # Funny quirks.
-            "Clumsy": "I am as graceful as a retarded swan.",
+            "Clumsy": "I'm as graceful as a retarded swan.",
             "Bad at Math": "I'm laughably bad at math and embarassed by this fact.",
             "Not Handy": "Not exactly handy with tools. In fact, I tend to make things worse when I try to fix them.",
             "Accident Prone": "I tend to drop things a lot; then trip over them and fall face-first on a rake.",
@@ -98,7 +97,7 @@ matrix = {
             "No Sense of Direction": "Couldn't find my way out of an empty room with a turn-by-turn GPS.",
             "Nervous Hummer": "I hum showtunes when I'm nervous.",
             "Finger Counter": "Performs counting on fingers and mouths the numbers.",
-            "Breaker of Phones": "Somehow, I always manage to break my phone.",
+            "Breaker of Phones": "Somehow, I always manage to break the glass on my phone.",
         },
         "Flaws": {
             "Common": {    # We all have flaws like these.
@@ -107,11 +106,11 @@ matrix = {
                 "Forgetful": "I would forget my head if it wasn't attached.",
                 "Moody": "I have a mood as ever-changing as the weather.",
                 "Impulsive": "I tend to be impulsive when making decisions.",
-                "Abrasive": "Placeholder.",
+                "Abrasive": "I tend to rub people the wrong way.",
                 "Avoidant": "I try to face my fears but I usually back down.",
                 "Temperamental": "I tend to lose my temper and fly off the handle.",
                 "Chatterbox": "Silences make me uncomfortable, so I talk a lot.",
-                "Self-centered": "Placeholder.",
+                "Self-centered": "Hey, I know! Let's talk more about ME!.",
                 "Flaky": "I love trying new things but rarely see it through.",
             },
             "Self-destructive": {    #
@@ -121,7 +120,6 @@ matrix = {
                 "Cruel": "I'm very nasty to people I don't like.",
                 "Gambler": "They tell me I have a gambling problem. I disagree.",
                 "Addictive Personality": "I tend to develop addictions easily.",
-                "Anti-social": "Placeholder.",
             },
             "Unlikable": {    #
                 "Chauvinist": "Yeah they have rights. The right to shut up do what I tell them.",
@@ -130,7 +128,7 @@ matrix = {
             },
             "Anti-social": {    #
                 "Murderer": "I've killed before, but they all had it coming.",
-                "Sexual Predator": "Placeholder.",
+                "Sexual Predator": "What, you don't know what this is?",
             },
         },
         "Fears": {
@@ -168,37 +166,38 @@ matrix = {
             "what I love. That's what I tell people at parties, at least.",
             "Police Officer": "I protect and serve my community. It's usually a thankless job.",
             "Fire Fighter": "I'm first on the scene for local emergencies.",
-            "Chef": "Placeholder.",
-            "Wine Taster": "Placeholder.",
-            "Professor": "Placeholder.",
-            "Architect": "Placeholder.",
-            "Doctor": "Placeholder.",
-            "Detective": "Placeholder.",
+            "Chef": "Master of the kitchen. Food is my artform.",
+            "Wine Taster": "I am a professional taster of fine wines.",
+            "Professor": "I teach at university.",
+            "Architect": "I design buildings.",
+            "Chiropractor": "I am not a quack!",
+            "Police Detective": "I solve crimes.",
+            "Private Detective": "I used to be a cop, now I work for myself.",
             "Nurse/Technician": "Sometimes I write prescriptions. Sometimes I get to save lives.",
         },
         "Uncommon": {     # Exotic/uncommon occupations
-            "Bounty Hunter": "Placeholder.",
-            "Fighter Pilot": "Placeholder.",
-            "Navy Seal": "Placeholder.",
+            "Bounty Hunter": "It's not what you've seen on TV.",
+            "Fighter Pilot": "I defend our country from the air.",
+            "Navy Seal": "We're the best at what we do, and we get the job done.",
             "Daredevil": "Frankly, it's amazing that I'm still alive.",
-            "Quantum Physicist": "Placeholder.",
-            "Hollywood Celebrity": "Placeholder.",
-            "Elected Official": "Placeholder.",
+            "Quantum Physicist": "I don't get the recognition I deserve!",
+            "Hollywood Celebrity": ".",
+            "Elected Official": "I'm a public servant, or so they say.",
         },
         "Rare": {     # Exceedingly rare occupations
-            "World Leader": "Placeholder.",
-            "Warlord": "Placeholder.",
-            "Astronaut": "Placeholder.",
-            "Army General": "Placeholder.",
-            "Assassin": "Placeholder.",
+            "World Leader": "With great power, comes great responsibility.",
+            "Warlord": "It's a constant battle for control. Show no weakness.",
+            "Astronaut": "I'm prepping for my first mission to outer space!",
+            "Army General": "Tactician. Soldier. Leader.",
+            "Assassin": "If you see my face, it's the last thing you'll ever see.",
         },
     },
     "Physical": {
         "Body": {
-            "Pee-Wee Herman": "Slender, delicate and vaguely feminine.",
+            "Pee-Wee Herman": "Slender, delicate and gangly.",
             "The Rock": "Built like a professional wrestler in their prime.",
-            "Portly": "Pleasantly plump. High-risk for heart disease.",
-            "Boringly Average": "I do not stand out from the crowd.",
+            "Portly": "Pleasantly plump. Don't judge.",
+            "Boringly Average": "I blend in.",
         },
         "Appearance": {
             "Plain": "Very average looking.",
@@ -211,7 +210,7 @@ matrix = {
             "Athiest": "There is no all-powerful being watching over us.",
         },
         "Delusions": {  # Delusional beliefs founded in mental illness.
-            "Messianic Complex": "Placeholder."
+            "Messianic Complex": "I have come to save you, my children."
         },
     },
     "Health": {
@@ -219,40 +218,25 @@ matrix = {
             "Common": {     # Common mental disorders harmful to oneself.
                 "Bipolar": "I suffer from terrible mood swings.",
                 "Depression": "I suffer from periodic clinical depression.",
-                "ADHD": "Placeholder.",
-                "General Anxiety": "Placeholder.",
-                "Seasonal Affective": "I feel down in the winter, more than most people.",
+                "ADHD": "I struggle with verbal instructions, among other things.",
+                "General Anxiety": "I get anxious a lot.",
+                "Seasonal Affective": "I get the winter blues, more than most people.",
                 "Social Anxiety": "Some social situations cause anxiety or panic attacks.",
                 "Obsessive-Compulsive": "Did I remember to turn off the light in the bathroom? I better catch the next flight home and check.",
             },
             "Serious": {     # Disorders which often adversely affect others.
-                "Narcissistic Personality": "Placeholder.",
+                "Narcissistic Personality": "I'm always the most important person in the room, but of course you already knew that.",
                 "Schizophrenic": "I'm haunted by my hallucinations and delusions.",
                 "Kleptomaniac": "I steal things, and I just can't stop!",
             },
             "Severe": {     # Severe mental conditions dangerous to others.
-                "Dissociative Identity Disorder": "Unbeknownst to me, I have multiple personalities.",
+                "Dissociative Identity Disorder": "I have multiple personalities. No I don't.",
             },
         },
         "Physical": {
             "Conditions": {
-                "Placeholder": "Placeholder.",
+                "Epileptic": "I have occasional seizures, especially when I don't take my meds.",
             },
         },
     },
 }
-
-
-# TESTING AREA
-
-
-# import random
-# print(random.sample(matrix['Health']['Mental']['Common'].items(), 1))
-# print(random.sample(matrix['Health']['Mental']['Serious'].items(), 1))
-# print(random.sample(matrix['Personality']['Humor']['Playful'].items(), 1))
-# print(random.sample(matrix['Personality']['Flaws']['Common'].items(), 1))
-# print(random.sample(matrix['Personality']['Quirks'].items(), 1))
-# print(random.sample(matrix['Personality']['Fears']['Common'].items(), 1))
-# print(random.sample(matrix['Past']['Wounds']['Fresh'].items(), 1))
-# print(random.sample(matrix['Past']['Secrets']['Common'].items(), 1))
-# print(random.sample(matrix['Past']['Secrets']['Dark'].items(), 1))
